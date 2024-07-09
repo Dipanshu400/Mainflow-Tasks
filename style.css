@@ -1,0 +1,93 @@
+header{
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),url(maldives-1993704_640.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+
+}
+nav{
+    background-color: transparent;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: rgb(251, 250, 250);
+    height: 100px;
+    width: 100%;
+    word-spacing: 15px;
+    position: relative;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+.menu a:before{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    left: 0;
+    border-bottom: 2px solid indianred;
+    transition: 0.1s linear;
+
+}
+.menu a:hover:before{
+    width: 100%;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    background-color: darkblue;
+    padding: 10px;
+    border-radius: 10px;
+    word-spacing: 2px;
+
+    
+}
+.btn a:hover{
+    background: transparent;
+    border: 1px solid indianred;
+
+}
+.logo{
+    font-weight: bolder;
+    font-size: 30px;
+    font-style: italic;
+}
+h1{
+    color: white;
+    font-size: 50px;
+}
+section div a{
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+section div a:hover{
+    background: transparent;
+    border: 1px solid indianred;
+    color: white;
+}
+h6{
+    letter-spacing: 2px;
+}
+.footer-logo{
+    font-size: 15px;
+    background-color: lightblue;
+    text-align: center;
+}
